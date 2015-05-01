@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/borger_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/borger_logo" />
+
+            <EditText
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint=""
+                android:background="@drawable/rounded_border_ed">
+            </EditText>
+
+            <Button
+                android:id="@+id/borger_store"
+                style="@style/menu_button"
+                android:text="@string/menu_screen_borger_store" />
+            
+            <Button
+                android:id="@+id/phone_calls"
+                style="@style/menu_button"
+                android:text="@string/menu_screen_phone_calls" />
+            
+            <Button
+                android:id="@+id/site_activity"
+                style="@style/menu_button"
+                android:text="@string/menu_screen_site_activity" />
+            
+            <Button
+                android:id="@+id/work_hard"
+                style="@style/menu_button"
+                android:text="@string/menu_screen_have_fun" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Borger</string>
+
+    <!-- Login screen -->
+    <string name="login_screen_user_name">User Name</string>
+    <string name="login_screen_user_password">Password</string>
+    <string name="login_screen_submit">Login</string>
+    <string name="error_user_name_empty">User name is empty</string>
+    <string name="error_user_password_empty">Password is empty</string>
+    
+    <!-- Menu Screen -->
+    <string name="menu_screen_message">Password is empty</string>
+    <string name="menu_screen_borger_store">BORGER STORE</string>
+    <string name="menu_screen_phone_calls">PHONE CALLS</string>
+    <string name="menu_screen_site_activity">SITE ACTIVITY</string>
+    <string name="menu_screen_have_fun">WORK HARD\n&amp; HAVE FUN</string>
+
+</resources>
